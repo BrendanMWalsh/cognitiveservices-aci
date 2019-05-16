@@ -1,8 +1,6 @@
 # 10 minute Quickstart: Running Cognitive Services on Azure Container Instances (ACI)
 
-With the following steps, Scale your Azure Cognitive Services applications in the cloud easily with Azure Container Instances (ACI). This 10 minute quickstart walks you through running Cognitive Services on ACI so you can focus on building your applications instead of managing the infrastructure.
-
-This quickstart will guide you to run a Cognitive Services [Text Analytics](https://docs.microsoft.com/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-install-containers) container on an Azure [Container Instance](https://docs.microsoft.com/azure/container-instances/) (ACI)
+With the following steps, you can run a Cognitive Services' [Text Analytics](https://docs.microsoft.com/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-install-containers) container on an Azure [Container Instances](https://docs.microsoft.com/azure/container-instances/) (ACI)
 
 
 ## Create a Cognitive Services resource for Text Analytics 
@@ -16,7 +14,7 @@ This quickstart will guide you to run a Cognitive Services [Text Analytics](http
     |Setting|Value|
     |--|--|
     |Name|`textanalytics-resource (or your own choice)`|
-    |Subscription|Select your subscription (Cloud Labs AI (SS - **).|
+    |Subscription|Select your subscription (Cloud Labs AI (SS - **)).|
     |Location|`(Europe) North Europe`|
     |Pricing Tier|`F0` - this is the free pricing tier (or) `S` - this is the standard pricing tier.|
     |Resource Group|Select the available resource group.|
@@ -30,7 +28,7 @@ This quickstart will guide you to run a Cognitive Services [Text Analytics](http
     |Page in Azure portal Resource|Setting|Value|
     |--|--|--|
     | **Overview**|Endpoint|Copy the endpoint. It looks like `https://northeurope.api.cognitive.microsoft.com/text/analytics/v2.0`|
-    |**Keys**|API Key|Copy 1 of the two keys. It is a 32 alphanum-character string with no spaces or dashes, `xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx`.|
+    |**Keys**|API Key|Copy one of the two keys. It is a 32 alphanum-character string with no spaces or dashes, `xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx`.|
 
 ## Launch Text Analytics Containers on Azure Container Instances (ACI) 
 
@@ -45,7 +43,7 @@ This quickstart will guide you to run a Cognitive Services [Text Analytics](http
     |--|--|--|
     |Basics|Subscription|Select your subscription (Cloud Labs AI (SS - **).|
     |Basics|Resource group|Select the available resource group.|
-    |Basics|Container name|`AIcontainer (or your own choice)` - this name should be in lower caps|
+    |Basics|Container name|`aicontainer (or your own choice)` - this name should be in lower caps|
     |Basics|Location|`(Europe) North Europe`|
     |Basics|Image type|`Public`|
     |Basics|Image name|Enter the sentiment container:<br>mcr.microsoft.com/azure-cognitive-services/sentiment|
